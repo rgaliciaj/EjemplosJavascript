@@ -7,10 +7,10 @@ let persons = [
 let cars = [
     {idCar: 1, brand: 'toyata', idPerson: 1 },
     {idCar: 2, brand: 'honda',  idPerson: 1 },
-    {idCar: 3, brand: 'roll royce',  idPerson: 2 },
-    {idCar: 4, brand: 'mclaren 720',  idPerson: 2 },
+    {idCar: 3, brand: 'rolls-royce',  idPerson: 2 },
+    {idCar: 4, brand: 'mclaren 720s',  idPerson: 2 },
     {idCar: 5, brand: 'ford',  idPerson: 2 },
-    {idCar: 6, brand: 'nissan',  idPerson: 2 },
+    {idCar: 6, brand: 'nissan gtr',  idPerson: 2 },
 ]
 
 
