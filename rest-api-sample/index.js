@@ -2,6 +2,9 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
+// official doc : http://expressjs.com/en/starter/installing.html
+
+
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
 
