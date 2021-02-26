@@ -8,12 +8,6 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-
-
-
-app.listen(3000, ()=>{
-    console.log('server up....')
-}) 
 app.get('/', function (req, res) {
   res.send('Hello World')
 })
@@ -25,3 +19,8 @@ app.post('/SampleServlet', (request, response)=>{
         greeting:  `hola ${data.name}`
     }); 
 });
+
+
+app.listen(3000, ()=>{
+    console.log('server up....')
+}) 
