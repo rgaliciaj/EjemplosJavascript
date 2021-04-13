@@ -3,7 +3,7 @@
 
 let dataAPI = [
     {
-        uid: "844fbd7b-45bf-418a-827f-0373ca67d63d",
+        uid: "844fbd7b-45bf-418a-827f-0373ca67d63tt",
         strain: "Diablo OG"
     }
 ]
